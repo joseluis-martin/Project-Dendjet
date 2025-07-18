@@ -1,4 +1,7 @@
 # Project-Dendjet
+
+"Dendro" (from Greek, related to trees/wood) and "Djet" (Egyptian hieroglyph meaning "eternity").
+
 An AI tool for egyptologists to classify sarcophagus wood species using computer vision.
 
 ---
