@@ -3,40 +3,40 @@ An AI tool for egyptologists to classify sarcophagus wood species using computer
 
 ---
 
-## 🏛️ Sobre el Proyecto
+## 🏛️ About The Project
 
-Este repositorio contiene el código y los modelos desarrollados para un proyecto de egiptología que busca clasificar la especie de madera de un sarcófago a partir de una fotografía. El objetivo es crear un sistema inteligente que sirva como herramienta de apoyo para investigadores, combinando técnicas de visión por computador con el conocimiento experto de la egiptología.
+This repository contains the code and models for an Egyptology project aimed at classifying the wood species of a sarcophagus from a photograph. The goal is to create an intelligent system to support researchers by combining computer vision techniques with expert Egyptological knowledge.
 
-El proyecto explora y compara dos arquitecturas principales de deep learning:
-* **Redes Neuronales Convolucionales (CNN)** como ResNet y EfficientNet.
-* **Vision Transformers (ViT)** como el ViT estándar, DeiT y Swin Transformer.
+The project explores and compares two main deep learning architectures:
+* **Convolutional Neural Networks (CNNs)** like ResNet and EfficientNet.
+* **Vision Transformers (ViTs)** like the standard ViT, DeiT, and Swin Transformer.
 
-## ✨ Características
+## ✨ Features
 
-* Implementaciones de modelos **CNN** y **ViT** para clasificación de imágenes.
-* Código preparado para entrenamiento, validación y prueba sobre datasets personalizados.
-* Notebooks de Jupyter (`.ipynb`) para una fácil experimentación y visualización.
-* Funciones para evaluar el rendimiento del modelo, incluyendo reportes de clasificación y matrices de confusión.
+* Implementations of **CNN** and **ViT** models for image classification.
+* Code prepared for training, validation, and testing on custom datasets.
+* Jupyter Notebooks (`.ipynb`) for easy experimentation and visualization.
+* Functions to evaluate model performance, including classification reports and confusion matrices.
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
 * Python
 * PyTorch
-* Timm (para los modelos ViT)
+* Timm (for ViT models)
 * Scikit-learn
 * Jupyter Notebook
 * Matplotlib & Seaborn
 
-## 🚀 Cómo Empezar
+## 🚀 Getting Started
 
-Para poner en marcha una copia local del proyecto, sigue estos pasos.
+To get a local copy up and running, follow these steps.
 
-1.  **Clona el repositorio**
+1.  **Clone the repo**
     ```sh
-    git clone [https://github.com/tu_usuario/Project-Dendjet.git](https://github.com/tu_usuario/Project-Dendjet.git)
+    git clone [https://github.com/your_username/Project-Dendjet.git](https://github.com/your_username/Project-Dendjet.git)
     ```
-2.  **Crea tu estructura de datos**
-    Asegúrate de tener tus imágenes organizadas en la siguiente estructura dentro de una carpeta `dataset/`:
+2.  **Set up your data structure**
+    Make sure your images are organized in the following structure within a `dataset/` folder:
     ```
     dataset/
     ├── train/
@@ -45,5 +45,5 @@ Para poner en marcha una copia local del proyecto, sigue estos pasos.
     ├── val/
     └── test/
     ```
-3.  **Abre los notebooks**
-    Ejecuta los archivos `.ipynb` en Jupyter Notebook o Google Colab y sigue los pasos indicados.
+3.  **Run the notebooks**
+    Open the `.ipynb` files in Jupyter Notebook or Google Colab and follow the indicated steps.
